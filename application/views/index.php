@@ -115,7 +115,6 @@
               <div class="chart-area">
                 <div id='pc_carregando' class='col-lg-12 text-center' style="display: none;"><i class='fa fa-cog fa-5x fa-spin'></i></div>
                 <canvas id="myAreaChart"></canvas>
-                <canvas id="myAreaChart"></canvas>
               </div>
             </div>
           </div>
