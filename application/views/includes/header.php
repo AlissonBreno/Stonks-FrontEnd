@@ -22,6 +22,8 @@
 
 <body id="page-top">
 
+  <input type="hidden" id="base_url" value="<?php echo base_url(); ?>">
+
   <!-- Page Wrapper -->
   <div id="wrapper">
 
@@ -29,7 +31,7 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?=base_url()?>dashboard">
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-dollar-sign"></i>
         </div>
@@ -41,7 +43,7 @@
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
-        <a class="nav-link" href="<?=base_url()?>welcome">
+        <a class="nav-link" href="<?=base_url()?>dashboard">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span></a>
       </li>
@@ -62,9 +64,9 @@
         <div id="collapseOThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Ganhos financeiros:</h6>
-            <a class="collapse-item" href="<?=base_url()?>welcome/pattern">Salário</a>
-            <a class="collapse-item" href="">Ganhos Mensais</a>
-            <a class="collapse-item" href="">Distribuição de Renda</a>
+            <a class="collapse-item" href="<?=base_url()?>dashboard/pattern">Salário</a>
+            <a class="collapse-item" onclick="" style="cursor:pointer;">Ganhos Mensais</a>
+            <a class="collapse-item" onclick="" style="cursor:pointer;">Distribuição de Renda</a>
           </div>
         </div>
       </li>
