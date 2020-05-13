@@ -42,7 +42,7 @@
       <hr class="sidebar-divider my-0">
 
       <!-- Nav Item - Dashboard -->
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="<?=base_url()?>dashboard">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span></a>
@@ -64,7 +64,6 @@
         <div id="collapseOThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Ganhos financeiros:</h6>
-            <a class="collapse-item" href="<?=base_url()?>dashboard/pattern">Salário</a>
             <a class="collapse-item" onclick="" style="cursor:pointer;">Ganhos Mensais</a>
             <a class="collapse-item" onclick="" style="cursor:pointer;">Distribuição de Renda</a>
           </div>
@@ -96,7 +95,7 @@
       </div>
 
       <!-- Nav Item - Dashboard -->
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="index.html">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Painel de Controle</span></a>
@@ -186,7 +185,7 @@
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="<?=base_url()?>perfil">
                   <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                   Perfil
                 </a>
